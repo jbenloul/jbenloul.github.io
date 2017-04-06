@@ -64,7 +64,7 @@ a {
 	-ms-transition:.5s;
 	-moz-transition:.5s;
  	-webkit-transition:.5s;
- 	transition: .5s;
+ 	transition: 5s;
  	color: #4aaaa5;
 }
 
@@ -75,6 +75,7 @@ a:hover{
 a:focus{
 	color:#4aaaa5;
 }
+
 
 
 .siteBody{
@@ -99,6 +100,101 @@ img{
 	border: 2px solid;
 	color:#000;
 }
+
+.eye{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-top: 220px;
+	position: absolute;
+}
+
+.donut{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-left: 340px;
+	margin-top: -88px;
+	position: absolute;
+}
+
+.half{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-top: 220px;
+	position: absolute;
+}
+
+.jack{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-left: 340px;
+	margin-top: -88px;
+	position: absolute;
+}
+.shit{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-top: 220px;
+	position: absolute;
+}
+
+.yeti{
+	width: 300px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+	border-radius: 10px;
+	margin: 6px;
+	margin-left: 340px;
+	margin-top: -88px;
+	position: absolute;
+}
+p:hover {
+	opacity: 0.3;
+	}
 
 .sidebar{
 	float: right;
@@ -143,14 +239,12 @@ img{
 footer{
 	margin: auto;
 	text-align: center; 
-	margin-bottom: 10px;
-	position: relative;
-    left: 0;
-    bottom: 0;
-    height: 100px;
     width: 100%;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
     float: right;
     margin-top: 25px;
+    background-color: #434447;
+    padding: 15px;
+    color:#D3D3D3;
 }
